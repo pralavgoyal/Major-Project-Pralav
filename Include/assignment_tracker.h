@@ -13,7 +13,6 @@ struct Assignment {
     char status[20];
 };
 
-// Function declarations
 void displayAssignment(struct Assignment a);
 void updateStatus(struct Assignment tracker[], int n, int id);
 void searchBySubject(struct Assignment tracker[], int n, char subject[]);
